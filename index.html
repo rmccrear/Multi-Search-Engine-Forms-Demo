@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <a href="index.html">link to self</a>
+            <form action="index.html">
+                <label>
+                    First Name:
+                    <input type="text" name="firstName" placeholder="John">
+                </label>
+                <label>
+                    Last Name
+                    <input type="text" name="lastName" placeholder="Doe"">
+                </label>
+                <input type="submit" value="Search">
+            </form>
+        </section>
+        <section>
+            <h4>Cat Section starts here.</h4>
+            <a href="https://images.pexels.com/photos/979247/pexels-photo-979247.jpeg">link to photo</a>
+            <a href="https://images.pexels.com/photos/979247/pexels-photo-979247.jpeg?w=50">link to small cat</a>
+            <form action="https://images.pexels.com/photos/979247/pexels-photo-979247.jpeg">
+                <label for="width-input">Width:</label>
+                <input type="text" name="w" id="width-input">
+                <br>
+                <label for="sepia-input">Sepia level:</label>
+                <input type="text" name="sepia" id="sepia-input">
+                <br>
+                <input type="submit" value="Get Cat">
+            </form>
+
+        </section>
+    </main>
+</body>
+
+</html>
